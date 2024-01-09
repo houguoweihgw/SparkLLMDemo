@@ -51,9 +51,9 @@ int initSDK()
 {
     // 全局初始化
     SparkChainConfig *config = SparkChainConfig::builder();
-    config->appID("ee858089")                            // 你的appid
-        ->apiKey("5b2e7188403a9f1552e49ab78ff6464b")     // 你的apikey
-        ->apiSecret("YzNlOWNkNWY0ZDk1M2Q0ZjhlZDMzNmI4"); // 你的apisecret
+    config->appID("XXX")                            // 你的appid
+        ->apiKey("XXX")     // 你的apikey
+        ->apiSecret("XXX"); // 你的apisecret
     // ->logLevel(0)
     // ->logPath("./aikit.log");
     int ret = SparkChain::init(config);
